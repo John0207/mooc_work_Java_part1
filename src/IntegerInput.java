@@ -5,6 +5,6 @@ public class IntegerInput {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give a number: ");
         int value = Integer.valueOf(scanner.nextLine());
-        System.out.println("You wrote " + value);
+        System.out.println("You gave the number " + value);
     }
 }
